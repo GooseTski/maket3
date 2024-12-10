@@ -1,0 +1,948 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+
+
+
+
+.container {
+   width: 1200px;
+   margin: 0 auto;
+}
+
+header{
+    background: #004449;
+}
+
+
+.text-log {
+    padding-top: 44px;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-login{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* header */
+header .container {
+    width: 775px;
+}
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+    color: #FFFEF0;
+}
+.Formerly{
+    font-size: 12px;
+    color: #D7FFC2;
+}
+
+.header-main{
+    margin-bottom: 384px;
+    margin-left: 147px;
+}
+
+.Less {
+    margin-top: 280px;
+    font-weight: 400;
+    font-size: 80px;
+    color: #FFFEF0;
+    line-height: 88px;
+}
+
+.text-orange{
+    color: #FFAC7F;
+}
+
+.header-main p {
+    font-size: 32px;
+    color: #FFFEF0;
+    line-height: 48px;
+    margin: 24px 0;
+}
+
+.header-main button{
+    width: 338px;
+    height: 56px;
+    background-color: #0BFF80;
+    border-radius: 800px;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    border: none;
+    color: #004449;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+.header-main img{
+    height: 23px;
+    width: 23px;
+    align-items: center;
+    display: block;
+}
+
+
+.header-footer {
+    width: 1200px;
+    padding-bottom: 149px;
+    margin: 0 auto;
+    text-align: center;
+}
+.header-footer p{
+    color: #FFFEF0;
+    font-size: 18px;
+}
+.header-footer nav {
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.burger-login{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hamburger{
+    width: 30px;
+    height: 30px;
+    display: none;
+}
+
+.line{
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+    transition: all 0.3s ease;
+
+}
+
+
+
+
+
+
+
+
+.booked-intro {
+    background: url("./img/IMAGE\ \(11\).png") no-repeat center  #eef7fb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 0 0 500px 0;
+}
+
+
+.How{
+    text-align: center;
+    font-size: 48px;
+    color: #004449;
+    padding-top: 112px;
+}
+
+
+.container-cards{
+    margin-top: 45px;
+    display: flex;
+}
+
+
+.airplane {
+    margin: 0 auto;
+    width: 135px;
+    height: 150px;
+}
+
+
+.booked-cards {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.booked-cards p, h3 {
+    background-color: #FFFEF0;
+}
+
+
+.book-title{
+ color: #004449;
+ font-weight: 400;
+ font-size: 24px;
+ padding-top: 32px;
+}
+
+.book-text {
+    font-size: 16px;
+    color: #004449;
+    padding: 28px;
+}
+
+
+
+.booked-going {
+    text-align: center;
+    width: 764px;
+    height: 372px;
+    background: #D7FFC2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -100px;
+}
+
+
+.booked-going h2 {
+    text-align: center;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    color: #004449;
+    font-weight: 400;
+    font-size: 48px;
+
+}
+
+
+.Gone {
+    margin-right: 5px;
+    color: #007A83;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.Most-booked {
+    color: #004449;
+    font-size: 11px;    
+
+}
+
+.booked-going button {
+    border-radius: 800px;
+    margin-top: 34px;
+    height: 100px;
+    width: 140px;
+    background-color: #483CFF;
+    border: none;
+    font-size: 16px;
+    color: #FFFEF0;
+    line-height: 24px;
+}
+
+.container-deals {
+    padding-top: 184px;
+    background-color: #FFFEF0;
+}
+
+.container-deals h2,p{
+    margin: 0;
+}
+
+
+.container-text-deals{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.Real {
+    border-radius: 5px;
+    background-color: #D7FFC2;
+    color: #004449;
+
+
+}
+.members{
+    color: #004449;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+
+
+.cards-city{
+    /* height: 556px; */
+    padding-bottom: 556px;
+    position: relative;
+    margin-top: 48px;
+    display: flex;
+
+}
+
+.cards-info {
+    z-index: 1;
+    position: absolute;
+}
+
+
+
+
+.New-York, .York-city {
+    margin-top: 20px;
+    width: 246px;
+    height: 324px;
+}
+
+
+.New-York {
+    left: 18%;
+    background-position: center bottom;
+}
+
+.Boston{
+    right: 50%;
+    left: 38%;
+    top: 0;
+    width: 270px;
+    height: 356px;
+
+
+}
+
+.York-city{
+    right: 19%;
+}
+
+.Chicago, .San-Francisco{
+    width: 226px;
+    height: 297px;
+    margin-top: 40px;
+}
+
+
+.Chicago{
+    left: 81%;
+    right: 1%;
+}
+.San-Francisco {
+    right: 24%;
+    left: 0%;
+}
+
+
+
+sup {
+    padding: 0;
+    font-size: 16px;
+}
+
+.price{
+    color: #004449;
+    font-size: 39px;
+    line-height: 40px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+    margin-top: -30px;
+    background-color: #FDD6BA;
+    border-radius: 50px;
+   height: 53px;
+    width: 108px;
+    
+}
+
+
+.normaly{
+    text-align: center;
+    font-size: 13px;
+    color: #004449;
+    margin: 10px 0px;
+
+}
+
+
+.text-city-cards img {
+    margin: 0 auto;
+}
+
+
+
+.text-city-cards{
+    width: 100%;
+    margin: 0 auto;
+    /* position: absolute; */
+    color: #004449;
+    text-align: center;
+    font-size: 24px;
+    align-items: center;
+}
+
+
+
+
+
+
+
+.Loved-main{
+    height: 1078px;
+    background: url(./img/bck-loved.png) no-repeat center #FDD6BA;
+    padding-top: 129px;
+}
+
+.Loved-title {
+    text-align: center;
+    font-size: 64px;
+    color: #004449;
+
+}
+
+.two-milion{
+
+    margin-right: 10px;
+    font-size: 64px;
+    color: #004449;
+    background-color: #D7FFC2;
+    border-radius: 5px;
+    width: 336px;
+    height: 74px;
+
+}
+
+.travelers{
+    font-size: 64px;
+    color: #004449;
+
+}
+
+.Loved-milion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-slider-loved{
+    margin-top: 214px;
+    width: 326px;
+    height: 365px;
+    overflow: hidden;
+    justify-content: space-around;
+}
+
+
+.container-center{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.loved-slider{
+    background-color: #FFFEF0;
+    width: 326px;
+    height: 365px;
+    position: relative;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.loved-slider p {
+    font-size: 18px;
+    color: #004449;
+}
+
+
+.comment{
+    
+    font-size: 14px;
+    margin-left: 32px;
+}
+
+.Author{    
+    margin-top: 48px;
+    margin-bottom: 5px;
+    margin-left: 31px;
+    margin-right: 32px;
+}
+
+
+.text-loved{
+    word-spacing: 3px;
+    line-height: 24px;
+    margin-top: 51px;
+    margin-left: 31px;
+    margin-right: 32px;
+
+}
+
+
+.arround-loved{
+    display: flex;
+    justify-content: center;
+    margin-top: 88px;
+    margin-left:  35px;
+    
+    align-items: center;
+}
+
+.border-arround{
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #004449;
+}
+
+.border-arround img {
+    margin-top: 10px;
+    width: 24px;
+    height: 24px;
+}
+
+
+.container-overpay{
+    text-align: center;
+    background-color: #FFFEF0;
+    padding-top: 169px;
+    height: 694px;
+}
+.overpay{
+    position: relative;
+    background-color: #BAEBFF;
+    width: 944px;
+    height: 388px;
+    
+    margin: 0 auto;
+   
+}
+
+.overpay-cat{
+    display: flex;
+    align-items: center;
+}
+
+.cat-girl{
+ position: absolute;
+ top: -90px;
+ left: -93px;
+}
+
+.title-overplay{
+    margin: 0 auto;
+    margin-top: 56px;
+    margin-bottom: 20px;
+    font-size: 48px;
+    color: #004449;
+}
+
+.Everything {
+    color: #004449;
+    font-size: 24px;
+    margin-bottom: 28px;
+}
+
+
+.overpay button {
+    width: 140px;
+    height: 100px;
+    border-radius: 45%;
+    color: #FFFEF0;
+    background-color: #483CFF;
+    border: none;
+}
+
+
+
+
+
+
+
+
+footer{
+    background-color: #004449;
+    width: 100%;
+    margin: 0 auto;
+    height: 488px;
+}
+
+
+
+.content-footer{
+    background-color: #004449;
+    display: flex;
+    padding-bottom: 60px;
+}
+
+.column-text{
+    color: #FFFEF0;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+}
+
+.title-footer{
+    margin-top: 60px;
+    margin-bottom: 48px;
+    
+}
+
+.column-info p{
+    margin-bottom: 16px;
+    font-size: 14px;
+
+}
+
+.icons-footer{
+    display: flex;
+    gap: 100px;
+
+}
+
+.icon3{
+    height: 32px;
+    width: 32px;
+    margin-top: 16px;
+    display: block;
+}
+
+
+.end-footer{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #FFFEF0;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.end-footer img {
+    margin: 16px 24px;
+}
+
+
+.nav-footer{
+    display: flex;
+    align-items: center;
+}
+
+.container-endfooter{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.nav-footer p {
+    font-size: 14px;
+    color: #004449;
+    margin-right: 32px;
+
+}
+
+.footer-align{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+
+
+
+@media screen and (min-width: 375px) and (max-width: 720px) {
+    
+   .container{
+    width: 100% !important;
+   }
+
+   header,main,footer{
+    width: 100%;
+    height: auto;
+   }
+
+   .text-log{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 24px;
+    align-items: center;
+    display: flex;
+   }
+
+
+   .logo-login{
+    width: 70%;
+    transform: translateX(-150%);
+   }
+
+   .burger-login{
+    justify-content: space-between;
+   }
+
+   .hamburger{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   }
+
+
+   .header-main {
+    width: 80%;
+    margin: 0 auto;
+    
+   }
+   .header-main p {
+    font-size: 1em;
+   }
+
+   .header-main button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+   }
+
+   .Less{
+    font-size: 2em;
+    margin-top: 50px;
+    line-height: 2em;
+   }
+   
+
+   .header-footer{
+    width: 100%;
+    padding-bottom: 50px;
+   }
+
+   .header-footer p {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+   }
+
+   .header-footer nav img{
+    width: 45px;
+    height: 45px;
+   }
+
+    .container-cards{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+   .booked-cards{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+   }
+   .booked-intro {
+    height: auto;
+    background-position: bottom;
+    padding-bottom: 150px;
+   }
+   .booked-going {
+    width: 100%;
+    position: relative;
+   }
+
+
+
+   .container-deals{
+    width: 100%;
+    padding-top: 50px;
+   }
+
+   .members{
+    width: 80%;
+    margin: 0 auto;
+   }
+
+
+   .container-text-deals{
+    width: 100%;
+   }
+
+
+   .members{
+    width: 80%;
+    margin: 0 auto;
+   }
+
+   .Real{
+    width: 80%;
+    margin: 0 auto;
+   }
+
+   .cards-city{
+    width: 100%;
+    padding-bottom: 300px;
+    flex-wrap: wrap;
+    justify-content: center;
+   }
+
+   .cards-info {
+    width: 100px;
+    position: revert;
+   }
+
+    .cards-info img {
+        justify-self: center;
+        width: 70px;
+        height: 80px;
+    }
+
+
+
+
+    .cards-info{
+        margin-top: 0px;
+        height: auto;
+    }
+
+    .price{
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: max-content;
+        padding: 5px;
+        height: 10%;
+        font-size: 8px;
+    }
+
+    .normaly{
+        font-size: 8px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .text-city-cards{
+        width: 100%;
+    }
+
+
+   
+
+   .text-city-cards{
+    font-size: 13px;
+   }
+
+   .text-city-cards img {
+    width: 12px;
+    height: 12px;
+   }
+
+
+   .Loved-main{
+    width: 100%;
+    height: auto;
+   }
+
+
+   .Loved-title{
+    font-size: 24px;
+    font-weight: 400;
+    width: 100%;
+   }
+
+   .two-milion{
+    font-size: 24px;
+    font-weight: 400;
+    width: 120px;
+    height: 30px;
+   }
+
+   .travelers{
+    font-size: 24px;
+    font-weight: 400;
+   }
+
+
+   .container-slider-loved{
+    width: 100%;
+    margin-top: 30px;
+   }
+
+   .loved-slider{
+    width: 50%;
+    height: 50%;
+   }
+
+   .loved-slider p {
+    font-size: 10px;
+   }
+   .text-loved {
+    margin: 0;
+    line-height: 14px;
+    padding: 0;
+   }
+
+   .Author, .comment {
+    margin-left: 0;
+   }
+
+
+   .container-overpay{
+    width: 100%;
+    height: auto;
+   }
+
+   .overpay{
+    width: 100%;
+    height: auto;
+   }
+
+   .title-overplay{
+    font-size: 24px;
+   }
+   .cat-girl{
+    top: -58px;
+    height: 80%;
+    height: 80%;
+   }
+
+
+   .Everything{
+    font-size: 14px;
+   }
+
+   footer{
+    height: auto;
+   }
+   .content-footer{
+    width: 100%;
+   }
+
+   .column-info p{
+    font-size: 8px;
+   }
+   .title-footer{
+    font-size: 12px;
+   }
+
+   .icons-footer{
+    gap: 0;
+   }
+
+   .end-footer{
+    width: 100%;
+   }
+
+
+
+
+}
+
